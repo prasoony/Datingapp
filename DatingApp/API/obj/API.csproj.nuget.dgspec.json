@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\learning\\DatingApp\\DatingApp\\api\\API.csproj": {}
+    "D:\\learning\\DatingApp\\Datingapp\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\learning\\DatingApp\\DatingApp\\api\\API.csproj": {
+    "D:\\learning\\DatingApp\\Datingapp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\learning\\DatingApp\\DatingApp\\api\\API.csproj",
+        "projectUniqueName": "D:\\learning\\DatingApp\\Datingapp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\learning\\DatingApp\\DatingApp\\api\\API.csproj",
+        "projectPath": "D:\\learning\\DatingApp\\Datingapp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\learning\\DatingApp\\DatingApp\\api\\obj\\",
+        "outputPath": "D:\\learning\\DatingApp\\Datingapp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

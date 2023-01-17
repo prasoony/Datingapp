@@ -7,11 +7,8 @@ using API.DTO;
 using API.DTOs;
 using API.Entities;
 using API.Interfaces;
-using API.Services;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace API.Controllers
 {

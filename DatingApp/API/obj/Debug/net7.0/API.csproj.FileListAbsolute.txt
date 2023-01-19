@@ -73,3 +73,6 @@ D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\System.IdentityModel.Tokens
 D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
 D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\Data\UserSeedData.Json
+D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\AutoMapper.dll
+D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

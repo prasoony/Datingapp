@@ -1,10 +1,9 @@
 
 using System.ComponentModel.DataAnnotations;
-using API.Controllers;
 
 namespace API.DTO
 {
-    public class RegisterDto : BaseApicontroller
+    public class RegisterDto 
     {
         [Required]
         public string Username { get; set; }

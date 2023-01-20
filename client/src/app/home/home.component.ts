@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -10,26 +9,16 @@ export class HomeComponent implements OnInit {
   registerMode = false;
   users :any;
 
-  constructor(private http:HttpClient ) { }
+  constructor( ) { }
 
   ngOnInit(): void {
-    this.GetUSer();
+ 
   }
   registerToggle() {
     this.registerMode = !this.registerMode;
   }
 
-  GetUSer() {
-    this.http.get('https://localhost:7005/api/users').subscribe({
 
-      next: Response => this.users = Response,
-      error: error => console.log(error),
-      complete: () => console.log('reqpuest completed')
-
-
-    }
-    )
-  }
 
   cancleRegisterMode(event :boolean){
 this.registerMode=event;

@@ -4,6 +4,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ToastrModule } from 'ngx-toastr';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { NgxGalleryModule } from 'ngx-gallery-9';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 
 @NgModule({
@@ -19,14 +20,18 @@ import { NgxGalleryModule } from 'ngx-gallery-9';
         preventDuplicates: true,
       }
     ),
-    NgxGalleryModule
+    NgxGalleryModule,
+    NgxSpinnerModule.forRoot({
+      type:'pacman'
+    })
 
   ],
   exports:[
     BsDropdownModule,
     ToastrModule,
     TabsModule,
-    NgxGalleryModule
+    NgxGalleryModule,
+    NgxSpinnerModule
 
   ]
 })

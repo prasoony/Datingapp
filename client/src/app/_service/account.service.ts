@@ -20,8 +20,7 @@ export class AccountService {
         const user = Response;
         if (user) {
         
-        localStorage.setItem('user', JSON.stringify(user))
-        this.CurrentUserSource.next(user)
+          this.setCurrentUser(user);
         }
       })
     )
@@ -31,8 +30,7 @@ export class AccountService {
   return this.http.post<user>(this.baseUrl + 'account/register',model).pipe(
     map(user =>{
       if(user){
-        localStorage.setItem('user',JSON.stringify(user));
-        this.CurrentUserSource.next(user)
+        this.setCurrentUser(user);
 
       }
     })

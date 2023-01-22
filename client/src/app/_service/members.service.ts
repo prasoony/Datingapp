@@ -32,6 +32,16 @@ export class MembersService {
   return this.http.get<Member>(this.baseUrl + 'users/'+username );
   ;
  }
+ setMainPhoto(photoId:number)
+ {
+  return  this.http.put(this.baseUrl +'Users/set-main-photo/' +photoId,{});
+ }
+
+ setDeletePhoto(photoID :number)
+ {
+  return  this.http.delete(this.baseUrl +'Users/delete-photo/' +photoID,{});
+ }
+
 UpdateMember(member : Member){
   return this.http.put(this.baseUrl + 'users', member ).pipe(
     map(()=>{

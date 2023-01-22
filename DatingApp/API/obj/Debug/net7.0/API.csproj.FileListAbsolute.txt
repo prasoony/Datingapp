@@ -76,3 +76,5 @@ D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\Microsoft.IdentityModel.Pro
 D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\Data\UserSeedData.Json
 D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\AutoMapper.dll
 D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\CloudinaryDotNet.dll
+D:\learning\DatingApp\datingApp\api\bin\Debug\net7.0\Newtonsoft.Json.dll
